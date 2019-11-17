@@ -1,0 +1,4 @@
+payment:
+  paymentMethods:
+    paypal: http://paypal-service.default.svc.cluster.local:8080/paypal
+    credit: http://credit-card-service.default.svc.cluster.local:8080/credit-card
