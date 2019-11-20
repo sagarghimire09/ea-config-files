@@ -1,5 +1,5 @@
 paypal:
-  redirectUrl:
+  redirectUrls:
     # success: http://paypal-service.default.svc.cluster.local:8080/
     # cancel: http://credit-card-service.default.svc.cluster.local:8080/
     success: http://localhost:8082/home
