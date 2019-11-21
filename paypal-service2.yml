@@ -1,6 +1,6 @@
 paypal:
   redirectUrls:
-    success: http://paypal-service2.default.svc.cluster.local:8080/
-    cancel: http://credit-card-service2.default.svc.cluster.local:8080/
+    success: http://paypal-service2.default.svc.cluster.local:8080/home
+    cancel: http://credit-card-service2.default.svc.cluster.local:8080/cancelPayment
     # success: http://localhost:8082/home
     # cancel: http://localhost:8082/cancelPayment
